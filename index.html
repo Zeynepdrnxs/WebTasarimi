@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Karakter seti, tarayıcı uyumluluğu ve görüntüleme ayarları için meta etiketleri -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Web sayfasının başlığı -->
+     <title>Vize</title>
+      <!-- Harici stil dosyasına olan bağlantı -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!-- Tüm içeriği içeren ana konteyner -->
+    <div class="main-container">
+         <!-- Sol taraftaki giriş formu ve diğer öğeleri içeren konteyner -->
+        <div class="main-left-container">
+            <!-- Hoş geldiniz mesajıyla başlık bölümü -->
+            <div class="title-main">
+                <span class="title-text">Welcome</span>
+                <span class="title-under-text">We are glad to see you back with us</span>
+            </div>
+            
+            <!-- Giriş formu bölümü -->
+            <div class="login-form-main">
+                <!-- Kullanıcı adı ve şifre için giriş alanları -->
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Password">
+                <!-- Bir sonraki adıma geçmek için buton -->
+                <button class="next-button">NEXT</button>
+            </div>
+
+            <!-- Diğer giriş seçenekleri bölümü -->
+            <div class="login-other-main">
+                <!-- "Diğerleriyle Giriş Yap" metnini stillemek için konteyner -->
+                <div class="login-other-text-container">
+                    <div class="login-line"></div>
+                    <span class="login-text">Login</span>
+                    <span class="login-other-text">with Others</span>
+                    <div class="login-line"></div>
+                </div>
+
+                <!-- Diğer giriş düğmeleri için konteyner (Google ve Facebook) -->
+                <div class="other-login-container">
+                    <button class="other-login-button">
+                        <div class="other-login-button-content">
+                            <img src="images/google-icon.svg">
+                            <span>Login with</span>
+                            <a href="" class="other-login-button-text">google</a>
+                        </div>
+                    </button> 
+                    
+                    <!-- Facebook ile giriş yapma düğmesi -->
+                    <button class="other-login-button">
+                        <div class="other-login-button-content">
+                            <img src="images/facebook-icon.svg">
+                            <span>Login with</span>
+                            <a href="" class="other-login-button-text">facebook</a>
+                        </div>
+                    </button> 
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ taraftaki resim içeren konteyner -->
+        <div class="image-container">
+            <img src="./images/Rectangle 4.png">
+        </div>
+    </div>
+
+    <!-- Sayfanın altındaki vektör resim -->
+    <img src="images/Vector.png" class="vector">
+</body>
+</html>

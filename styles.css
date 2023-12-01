@@ -1,0 +1,190 @@
+/* Genel sayfa stil ayarları */
+html {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Vektör eleman stil ayarları */
+.vector {
+  position: fixed;
+  top: 75%;
+  transform: translateX(-50%);
+}
+
+/* Ana içerik konteyneri stil ayarları */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Resim konteyneri stil ayarları */
+.image-container {
+  border-radius: 10px;
+}
+
+/* Sol ana konteyner stil ayarları */
+.main-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Başlık ana konteyneri stil ayarları */
+.title-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Başlık metni stil ayarları */
+.title-text {
+  font-family: "SmoochSans";
+  font-size: 130px;
+}
+
+/* Alt başlık metni stil ayarları */
+.title-under-text {
+  font-family: "Poppins";
+}
+
+/* Giriş formu ana konteyneri stil ayarları */
+.login-form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Diğer giriş seçenekleri ana konteyneri stil ayarları */
+.login-other-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Diğer giriş metni konteyneri stil ayarları */
+.login-other-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Diğer giriş metni stil ayarları */
+.login-other-text {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+/* Giriş metni stil ayarları */
+.login-text {
+  font-family: "PoppinsBold";
+  font-size: 15px;
+}
+
+/* Giriş çizgisi stil ayarları */
+.login-line {
+  padding: 0.7px;
+  width: 120px;
+  background-color: #e5e5e5;
+}
+
+/* Giriş input stil ayarları */
+input {
+  font-family: "Poppins";
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 400px;
+  border-radius: 15px;
+  background-color: rgb(241, 241, 241);
+}
+
+/* İleri butonu stil ayarları */
+.next-button {
+  font-family: "SmoochSans";
+  border: none;
+  outline: none;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 400px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+
+  &:active,
+  &:hover {
+    background-color: #707070;
+  }
+}
+/* Diğer giriş seçenekleri konteyneri stil ayarları */
+.other-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Diğer giriş butonu stil ayarları */
+.other-login-button {
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 400px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+/* Diğer giriş butonu içeriği stil ayarları */
+.other-login-button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Diğer giriş butonu metni stil ayarları */
+.other-login-button-text {
+  text-decoration: none;
+  color: black;
+  font-family: "PoppinsBold";
+
+  &:active,
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Font ayarları */
+@font-face {
+  font-family: "SmoochSans";
+  src: url("fonts/SmoochSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("fonts/Poppins-SemiBold.ttf") format("truetype");
+}
